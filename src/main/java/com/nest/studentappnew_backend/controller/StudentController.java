@@ -21,4 +21,10 @@ public class StudentController {
         return "student added successfully";
     }
 
+    @GetMapping("/view")
+    public String view(){
+        return "view page";
+    }
+
+
 }
